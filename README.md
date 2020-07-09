@@ -12,7 +12,7 @@ After updating to 2.10.52 posts are not sorted correctly.
 2. Start a local proxy: `npx netlify-cms-proxy-server`
 3. Navigate to localhost:8000/admin
 4. Sort posts in descending order
-5. Posts are sorted as follows: 2, 1, 3, 4, 5
+5. Posts are sorted as follows: 2, 1, 3, 4, 5 (Firefox) and 4,2,1,5,3 (Chrome)
 6. Decrement the version to 2.10.51 in `admin/index.html`
 7. Posts are sorted as follows: 5, 4, 3, 2, 1
 
